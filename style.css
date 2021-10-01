@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.fas {
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    color: teal;
+
+}
+.menu {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    color: black;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.menu :hover {
+    color: teal;
+}
+.menu > div > a {
+    text-decoration: none;
+    color:black;
+}
+.menu > div > a > i {
+    float: right;
+    padding: 5px;
+    color: teal;
+    padding-left: 5px;
+}
+#live {
+    float: left;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.menu > ul {
+    float: left;
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 50px;
+
+}
+.menu > ul > li {
+    display:inline-block;
+    padding: 15px;
+}
+.menu > ul > li > a {
+    text-decoration: none;
+    color:black;
+}
+.photo {
+    float: right;
+    padding-right: 100px;
+}
+.main-text {
+    float: right;
+    padding-right: 50px;
+    padding-top: 30px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.par {
+    float: right;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.par > a > i {
+    color: teal;
+    padding-right: 15px;
+}
+.end {
+    float: right;
+    padding-top: 50px;
+}
+.end > il {
+    float: right;
+    padding: 30px;
+    padding-right: 110px;
+}
+.end > il > h3 > a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.far {
+    color: teal;    
+}
+@media screen and (max-width:768px) {
+    .photo {
+       width: 70%;
+   }
+    .menu > ul > li {
+       display: block;
+   }
+   .menu > ul {
+       float: right;
+   }
+   .end > il {
+       display: block;
+   }
+   .main-text {
+       padding-right: 100px;
+   }
+   .par {
+       padding-right: 100px;
+   }
+}
+@media screen and (max-width:400px) {
+    .photo {
+        width: 100%;
+    }
+    
+}
